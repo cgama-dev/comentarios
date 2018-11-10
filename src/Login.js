@@ -31,7 +31,7 @@ class Login extends Component {
                     <input type="text" className="form-control mr-1" onChange={this.handleChange('email')} placeholder="Infome sua email" />
                     <input type="password" className="form-control mr-1" onChange={this.handleChange('passwd')} placeholder="Informe sua senha" />
                     <button type="button" className="btn btn-primary mr-1" onClick={this.login}>Entrar</button>
-                    <button type="button" className="btn mr-2" onClick={() => this.props.changeScreen('signup')}> Criar Conta</button>
+                    <button type="button" className="btn mr-2" onClick={() => this.props.changeScreen('signup')}> Criar Contas</button>
                 </form>
                 {
                     this.props.isAuthError &&
